@@ -1,6 +1,8 @@
 package com.novoage.mytestlibray
 
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.novoage.mylibrary.getNumber
 import com.novoage.mytestlibray.ui.theme.MyTestLibrayTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,6 +26,13 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        val aa = getNumber()
+
+        Log.d("number==============","$aa")
+
+
+
     }
 }
 
