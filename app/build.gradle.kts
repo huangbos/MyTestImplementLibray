@@ -64,7 +64,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 //    implementation(project(":app:mylibrary"))
-    implementation ("com.github.huangbos:MyTestImplementLibray:v4.0")
+//    implementation ("com.github.huangbos:MyTestImplementLibray:v4.0")
 
 
 
